@@ -1,0 +1,534 @@
+1). -56
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a : ");
+    scanf("%d",&a);
+
+    return 0;
+}
+
+
+2). R
+
+#include <stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter the value of a : ");
+    scanf("%c",&a);
+
+    return 0;
+}
+
+
+3). 34, -2.34, t
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a : ");
+    scanf("%d",&a);
+    float b;
+    printf("enter the decimal value of b :");
+    scanf("%f",&b);
+    char d;
+    printf("enter any single character :");
+    scanf("%c",&d);
+
+    return 0;
+}
+
+
+4). 34+89
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a : ");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b :");
+    scanf("%d",&b);
+    int c=a+b;
+    printf("%d",c);
+
+    return 0;
+}
+
+
+5). 23-5
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a : ");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b :");
+    scanf("%d",&b);
+    int c=a-b;
+    printf("%d",c);
+
+    return 0;
+}
+
+
+6). 56*2
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a : ");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b :");
+    scanf("%d",&b);
+    int c=a*b;
+    printf("%d",c);
+
+    return 0;
+}
+
+
+7). 45/5
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c;
+    printf("enter the value of a : ");
+    scanf("%d",&a);
+    
+    printf("enter the value of b :");
+    scanf("%d",&b);
+    c=a/b;
+    printf("%d",c);
+
+    return 0;
+}
+
+
+8). 23+89+12+56
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c,d,e;
+    printf("enter the value of a : ");
+    scanf("%d",&a);
+    printf("enter the value of b : ");
+    scanf("%d",&b);
+    printf("enter the value of c : ");
+    scanf("%d",&c);
+    printf("enter the value of d : ");
+    scanf("%d",&d);
+    
+    e=a+b+c+d;
+    printf("%d",e);
+    
+    return 0;
+}
+
+
+9). 45+78+23+12
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a : ");
+    scanf("%d",&a);
+    
+    int b;
+    printf("enter the value of b : ");
+    scanf("%d",&b);
+    
+    int c;
+    printf("enter the value of c : ");
+    scanf("%d",&c);
+    
+    int d;
+    printf("enter the value of d : ");
+    scanf("%d",&d);
+    
+    int e;
+    e=a+b+c+d;
+    printf("%d",e);
+    
+    return 0;
+}
+
+10). 2.532
+
+#include <stdio.h>
+
+int main()
+{
+    float a;
+    printf("enter the decimal value of a : ");
+    scanf("%f",&a);
+
+    return 0;
+}
+
+
+11). 56*34+12/2-13
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c,d,e,f;
+    
+    printf("enter the value of a :");
+    scanf("%d",&a);
+    printf("enter the value of b :");
+    scanf("%d",&b);
+    printf("enter the value of c :");
+    scanf("%d",&c);
+    printf("enter the value of d :");
+    scanf("%d",&d);
+    printf("enter the value of e :");
+    scanf("%d",&e);
+    
+    f=a*b+c/d-e;
+    printf("%d",f);
+    
+    return 0;
+}
+
+
+12). 1.2*6.7-4.5/2
+
+#include <stdio.h>
+
+int main()
+{
+    int d;
+    float a,b,c;
+    
+    printf("enter the decimal value of a :");
+    scanf("%f",&a);
+    printf("enter the decimal value of b :");
+    scanf("%f",&b);
+    printf("enter the decimal value of c :");
+    scanf("%f",&c);
+    printf("enter the value of d :");
+    scanf("%d",&d);
+    
+    float result=a*b-c/d;
+    printf("%f",result);
+    
+    return 0;
+}
+
+
+13). 1.6*(12-2)/2+7.8-1.5
+
+#include <stdio.h>
+
+int main()
+{
+    int b,c,d;
+    float a,e,f;
+    
+    printf("enter the decimal value of a :");
+    scanf("%f",&a);
+    printf("enter the value of b :");
+    scanf("%d",&b);
+    printf("enter the value of c :");
+    scanf("%d",&c);
+    printf("enter the value of d :");
+    scanf("%d",&d);
+    printf("enter the decimal value of e :");
+    scanf("%f",&e);
+    printf("enter the decimal value of f :");
+    scanf("%f",&f);
+    
+    float result=a*(b-c)/d+e-f;
+    printf("%f",result);
+    
+    return 0;
+}
+
+
+14). 4.5*1.2-(82/2)-5.6+1.234
+
+#include <stdio.h>
+
+int main()
+{
+    int c,d;
+    float a,b,e,f ;
+    
+    printf("enter the decimal value of a :");
+    scanf("%f",&a);
+    printf("enter the decimal value of b :");
+    scanf("%f",&b);
+    printf("enter the value of c :");
+    scanf("%d",&c);
+    printf("enter the value of d :");
+    scanf("%d",&d);
+    printf("enter the decimal value of e :");
+    scanf("%f",&e);
+    printf("enter the decimal value of f :");
+    scanf("%f",&f);
+    
+    float result=a*b-(c/d)-e+f;
+    printf("%f",result);
+    
+    return 0;
+}
+
+
+15). 8*1+(4-2)/1+6
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c,d,e,f;
+    
+    printf("enter the value of a :");
+    scanf("%d",&a);
+    printf("enter the value of b :");
+    scanf("%d",&b);
+    printf("enter the value of c :");
+    scanf("%d",&c);
+    printf("enter the value of d :");
+    scanf("%d",&d);
+    printf("enter the value of e :");
+    scanf("%d",&e);
+    printf("enter the value of f :");
+    scanf("%d",&f);
+    
+    int result=a*b+(c-d)/e+f;
+    printf("%d",result);
+    
+    return 0;
+}
+
+
+16). 3.4+1.2*(3.7-1.2)/2+6.8
+
+#include <stdio.h>
+
+int main()
+{
+    int e;
+    float a,b,c,d,f ;
+    
+    printf("enter the decimal value of a :");
+    scanf("%f",&a);
+    printf("enter the decimal value of b :");
+    scanf("%f",&b);
+    printf("enter the decimal value of c :");
+    scanf("%f",&c);
+    printf("enter the decimalvalue of d :");
+    scanf("%f",&d);
+    printf("enter the value of e :");
+    scanf("%d",&e);
+    printf("enter the decimal value of f :");
+    scanf("%f",&f);
+    
+    float result=a+b*(c-d)/e+f;
+    printf("%f",result);
+    
+    return 0;
+}
+
+
+17). 8.9*1.67-(6.21-5.6)+7.8-34+157
+
+#include <stdio.h>
+
+int main()
+{
+    int f,g;
+    float a,b,c,d,e;
+    
+    printf("enter the decimal value of a :");
+    scanf("%f",&a);
+    printf("enter the decimal value of b :");
+    scanf("%f",&b);
+    printf("enter the decimal value of c :");
+    scanf("%f",&c);
+    printf("enter the decimalvalue of d :");
+    scanf("%f",&d);
+    printf("enter the decimal value of e :");
+    scanf("%f",&e);
+    printf("enter the value of f :");
+    scanf("%d",&f);
+    printf("enter the value of g :");
+    scanf("%d",&g);
+    
+    float result=a*b-(c-d)+e-f+g;
+    printf("%f",result);
+    
+    return 0;
+}
+
+
+—----------------------------------------------------------------------------------------------------------------------------
+
+
+18). Write a c program to check the number is greater than 10.
+
+#include <stdio.h>
+
+int main() {
+    int number;
+
+    // Prompt the user to enter a number
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    // Check if the number is greater than 10
+    if (number > 10) {
+        printf("The number is greater than 10.\n");
+    } else {
+        printf("The number is not greater than 10.\n");
+    }
+
+    return 0;
+}
+
+
+
+19). Write a c program to check the number is greater than 50.
+
+#include <stdio.h>
+
+int main() {
+    int number;
+
+    // Prompt the user to enter a number
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    // Check if the number is greater than 50
+    if (number > 50) {
+        printf("The number is greater than 50.\n");
+    } else {
+        printf("The number is not greater than 50.\n");
+    }
+
+    return 0;
+}
+
+
+
+20). Write a c program to check the number is less than 46.
+
+#include <stdio.h>
+
+int main() {
+    int number;
+
+    // Prompt the user to enter a number
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    // Check if the number is less than 46
+    if (number < 46) {
+        printf("The number is less than 46.\n");
+    } else {
+        printf("The number is not less than 46.\n");
+    }
+
+    return 0;
+}
+
+
+
+21). Write a c program to check if the number is divisible by 5 or not.
+
+#include <stdio.h>
+
+int main() {
+    int number;
+
+    // Prompt the user to enter a number
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    // Check if the number is divisible by 5
+    if (number % 5 == 0) {
+        printf("The number is divisible by 5.\n");
+    } else {
+        printf("The number is not divisible by 5.\n");
+    }
+
+    return 0;
+}
+
+
+
+22). write a c program to check if a number is even or odd ?
+
+#include <stdio.h>
+
+int main() {
+    int number;
+
+    // Prompt the user to enter a number
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    // Check if the number is even or odd
+    if (number % 2 == 0) {
+        printf("The number is even.\n");
+    } else {
+        printf("The number is odd.\n");
+    }
+
+    return 0;
+}
+
+
+
+23). write a program and check if a number is positive integer and negative integer ?
+
+
+#include <stdio.h>
+
+int main() {
+    int number;
+
+    // Prompt the user to enter a number
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    // Check if the number is positive, negative, or zero
+    if (number > 0) {
+        printf("The number is positive.\n");
+    } else if (number < 0) {
+        printf("The number is negative.\n");
+    } else {
+        printf("The number is zero.\n");
+    }
+
+    return 0;
+}
+
+
+
+
+
+

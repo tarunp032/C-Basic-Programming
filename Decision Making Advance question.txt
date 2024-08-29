@@ -1,0 +1,346 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Q-1
+// int num;
+// printf("Enter any number ");
+// scanf("%d", &num);
+// if(num == 1){
+//     printf("one");
+// }else{
+//     printf("input  is not valid");
+// }
+
+//------------------------------------------------------------------//
+// Q-2
+// int num;
+// printf("Enter any number ");
+// scanf("%d", &num);
+// if(num == 4){
+//     printf("Four");
+// }else{
+//     printf("input is not valid");
+// }
+//------------------------------------------------------------------//
+
+// Q-3
+
+//  char a;
+//     printf("enter any one character ");
+//     scanf("%c",&a);
+//     if(a=='a'){
+//         printf("apple");
+//     }
+//     else{
+//         printf("input is not valid ");
+//     }
+
+//------------------------------------------------------------------//
+// Q-4
+
+//  char b;
+//     printf("enter any one character ");
+//     scanf("%c",&b);
+//     if(b=='b'){
+//         printf("Ball");
+//     }
+//     else{
+//         printf("input is not valid ");
+//     }
+//------------------------------------------------------------------//
+// Q-5
+//  char t;
+//     printf("enter any one character ");
+//     scanf("%c",&t);
+//     if(t=='t'){
+//         printf("Tiger");
+//     }
+//     else{
+//         printf("input is not valid ");
+//     }
+
+//------------------------------------------------------------------//
+
+
+// Q-6
+//   char a;
+//     printf("enter any one character");
+//     scanf("%c",&a);
+// if(a=='a'){
+//     int num1,num2,num3;
+//     printf("Enter num1 and num2 ");
+//     scanf("%d %d", &num1,&num2);
+//     num3 = num1 + num2;
+//     printf("%d", num3);
+// }
+
+//------------------------------------------------------------------//
+
+
+// Q-7
+//   char s;
+//     printf("enter any one character ");
+//     scanf("%c",&s);
+// if(s=='s'){
+//     int num1,num2,num3;
+//     printf("Enter num1 and num2 ");
+//     scanf("%d %d", &num1,&num2);
+//     num3 = num1 - num2;
+//     printf("%d", num3);
+// }
+
+//------------------------------------------------------------------//
+
+// Q-8
+//   char m;
+//     printf("enter any one character ");
+//     scanf("%c",&m);
+// if(m=='m'){
+//     int num1,num2,num3;
+//     printf("Enter num1 and num2 ");
+//     scanf("%d %d", &num1,&num2);
+//     num3 = num1 * num2;
+//     printf("%d", num3);
+// }
+
+//------------------------------------------------------------------//
+
+// Q-9
+//   char d;
+//     printf("enter any one character ");
+//     scanf("%c",&d);
+// if(d=='d'){
+//     int num1,num2,num3;
+//     printf("Enter num1 and num2 ");
+//     scanf("%d %d", &num1,&num2);
+//     num3 = num1 / num2;
+//     printf("%d", num3);
+// }
+
+//------------------------------------------------------------------//
+
+// Q-10
+//   char o;
+//     printf("enter any one character ");
+//     scanf("%c",&o);
+// if(o=='o'){
+//     int num1,num2,num3;
+//     printf("Enter num1 and num2 ");
+//     scanf("%d %d", &num1,&num2);
+//     num3 = num1 % num2;
+//     printf("%d", num3);
+// }
+
+//------------------------------------------------------------------//
+
+// Q-11
+//   char s;
+//     printf("enter any one character ");
+//     scanf("%c",&s);
+// if(s=='s'){
+//     int num1,num2;
+//     printf("Enter num1 and num2 ");
+//     scanf("%d %d", &num1,&num2);
+//     num1 = num1 + num2;
+//     num2 = num1 - num2; 
+//     num1 = num1 - num2;
+//     printf("%d %d", num1,num2);
+// }
+
+//------------------------------------------------------------------//
+
+// Q-12
+//   char s;
+//     printf("enter any one character ");
+//     scanf("%c",&s);
+// if(s=='s'){
+//     int num1,num2,num3;
+//     printf("Enter num1 and num2 ");
+//     scanf("%d %d", &num1,&num2); 
+//
+//     num3 = num1; 
+//     num1 = num2; 
+//     num2 = num3; 
+ 
+//     printf("%d %d", num1,num2);
+// }
+
+//------------------------------------------------------------------//
+
+// Q-13 Vovels
+
+//   char a;
+//     printf("enter any one character");
+//     scanf("%c",&a);
+//     if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u')
+//     {
+//       printf("vowel")  ;
+//     }
+//     else{
+//         printf("consonant");
+//     }
+
+//------------------------------------------------------------------//
+
+// Q-14
+//  char a;
+//     printf("enter any one character ");
+//     scanf("%c",&a);
+//     if(a=='q' || a=='w' || a=='e' || a=='r' || a=='t' || a=='y' || a=='u' || a=='i' ||a=='o' ||a=='p')
+//     {
+//       printf("upper line")  ;
+//     }
+//     else{
+//         printf("Input is not vaild");
+//     }
+
+//------------------------------------------------------------------//
+// Q-15
+//  char a;
+//     printf("enter any one character ");
+//     scanf("%c",&a);
+//     if(a=='a' || a=='s' || a=='d' || a=='f' || a=='g' || a=='j' || a=='l')
+//     {
+//       printf("Mid line")  ;
+//     }
+//     else{
+//         printf("Input is not vaild");
+//     }
+
+//------------------------------------------------------------------//
+// Q-16
+//  char a;
+//     printf("enter any one character ");
+//     scanf("%c",&a);
+//     if(a=='p' || a=='e' || a=='a' || a=='k')
+//     {
+//       printf("Peak line")  ;
+//     }
+//     else{
+//         printf("Input is not vaild");
+//     }
+
+//------------------------------------------------------------------//
+// Q-17
+// int num;
+// printf("Enter any number ");
+// scanf("%d", &num);
+// if(num % 4 == 0 && num % 6 == 0){
+//     printf("num is divisible by value 1 and 2");
+// }else{
+//     printf("Not a valid number");
+// }
+
+//------------------------------------------------------------------//
+// Q-18
+// int num;
+// printf("Enter any number ");
+// scanf("%d", &num);
+// if(num % 4 == 0 || num % 6 == 0){
+//     printf("num is divisible by value 1 and 2");
+// }else{
+//     printf("Not a valid number");
+// }
+
+//------------------------------------------------------------------//
+// Q-19
+// int num;
+// printf("Enter any number ");
+// scanf("%d", &num);
+// if(num % 5 == 0 && num % 11 == 0){
+//     printf("num is divisible by value 1 and 2");
+// }else{
+//     printf("Not a valid number");
+// }
+
+//------------------------------------------------------------------//
+// Q-20
+// int num;
+// printf("Enter any number ");
+// scanf("%d", &num);
+// if(num >= 1 && num <= 10 ){
+//     printf("Num is between provided value");
+// }else{
+//     printf("Not a valid number");
+// }
+
+//------------------------------------------------------------------//
+// Q-21
+// int num;
+// printf("Enter any number ");
+// scanf("%d", &num);
+// if(num >= 11 && num <= 20 ){
+//     printf("Num is between provided value");
+// }else{
+//     printf("Not a valid number");
+// }
+
+
+//------------------------------------------------------------------//
+// Q-22
+// int a,b,c,d,e;
+// int passingScore = 36;
+// printf("Enter subjects marks ");
+// scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+// if(a >= passingScore && b >= passingScore && c >= passingScore && d >= passingScore && e >= passingScore){
+//     printf("You passed all of your subjects");
+// }else{
+//     printf("You failed!! Try again");
+// }
+
+
+
+//------------------------------------------------------------------//
+// Q-23
+
+// int a,b,c,d,e;
+// int passingScore = 36;
+// printf("Enter subjects marks ");
+// scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+// int marks = a + b + c + d + e;
+// int totalMarks = 500;
+// int percentage = ((float)marks / totalMarks) * 100;
+
+// if(percentage >= 60){
+//     printf("You passed all of your subjects");
+// }else{
+//     printf("You failed!! Try again");
+// }
+
+
+//------------------------------------------------------------------//
+
+// Q-24
+// int a,b,c,d,e;
+// printf("Enter subjects marks ");
+// scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+// int marks = a + b + c + d + e;
+// int noOfSub = 5;
+// int average = (marks / noOfSub );
+// if(average >= 40){
+//     printf("You passed");
+// }else{
+//     printf("You failed!! Try again");
+// }
+
+//------------------------------------------------------------------//
+
+// Q-25
+    // int a, b, c, d, e;
+    // printf("Enter subjects marks: ");
+    // scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
+
+    // int marks = a + b + c + d + e;
+    // int totalMarks = 500; // Assuming each subject is out of 100
+    // float averagePercentage = ((float)marks / totalMarks) * 100;
+
+    // if(averagePercentage >= 40) {
+    //     printf("You passed\n");
+    // } else {
+    //     printf("You failed!! Try again\n");
+    // }
+
+    // return 0;
+}
+

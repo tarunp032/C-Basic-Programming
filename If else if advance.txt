@@ -1,0 +1,241 @@
+1). user input number :
+	{number greater than 10 
+		
+		input number :
+			number check divisible 6 
+			yes this number is divisible by 6 
+
+			otherwise :this number is not divisible by 6 
+		
+		number is not greater than 10}
+
+Solution:- 
+
+#include<stdio.h>
+int main(){
+    int num;
+    
+    printf("enter a number :");
+    scanf("%d",&num);
+    
+    if(num>10){
+        printf("the number is greater than 10. \n");
+    
+    //nested if to check the number is divisible by 6
+    if (num % 6==0){
+        printf("the number is divisible by 6.\n");
+    }
+    else {
+        printf("the number is not divisible by 6.\n");
+    }
+    }else {
+        printf("the number is not greater than 10.\n");
+    }
+    return 0;
+}
+
+
+
+
+2). Write a C program to take user input characters.
+
+// user input character :
+// e :
+// 	check number is even or odd
+
+// m :
+// 	make calendar
+
+// c :
+// 	calculator
+
+// w :
+// 	week days
+
+// g :
+// 	marksheet
+
+// v :
+// 	voter id (input age :greater than 18 valid otherwise not valid for vote )
+// -------------------------------------------------------- //
+// Solution 2 -----------------------------------------------------------------------------------------//
+	char word;
+	printf("Enter the word");
+	scanf("%c", &word);
+
+
+	if(word == 'e') {
+		int num;
+		printf("Enter a number to check if it's a odd value or even");
+		scanf("%d", &num);
+
+		if(num % 2 == 0) {
+			printf("It's a even value!!");
+		} else {
+			printf("It's a odd value!!");
+		}
+	} else if(word == 'm') {
+		char a;
+		printf("Enter any word ");
+		scanf(" %c", &a);
+		if(a =='a') {
+			printf("Jan");
+		}
+		else if(a == 'b') {
+			printf("Feb");
+		}
+		else if(a == 'c') {
+			printf("Mar");
+		}
+		else if(a == 'd') {
+			printf("April");
+		}
+		else if(a == 'e') {
+			printf("May");
+		}
+		else if(a == 'f') {
+			printf("June");
+		}
+		else if(a == 'g') {
+			printf("July");
+		}
+		else if(a == 'g') {
+			printf("Aug");
+		}
+		else if(a == 'g') {
+			printf("Sept");
+		}
+		else if(a == 'g') {
+			printf("Oct");
+		}
+		else if(a == 'g') {
+			printf("Nov");
+		}
+		else if(a == 'g') {
+			printf("December");
+		}
+		else {
+			printf("Invalid input");
+		}
+
+	} else if(word == 'c') {
+
+		char a;
+
+		printf("Enter the char ");
+
+		scanf(" %c", &a);
+
+		int num1, num2, num3;
+
+		printf("Write num1,num2 ");
+
+		scanf(" %d %d", &num1, &num2);
+
+		if(a == 'a') {
+			num3 = num1 + num2;
+			printf("%d", num3);
+
+		} else if(a == 's') {
+			num3 = num1 - num2;
+			printf("%d", num3);
+
+		} else if (a == 'b') {
+			num3 = num1 * num2;
+			printf("%d", num3);
+
+		} else if(a == 'c') {
+			num3 = num1 / num2;
+			printf("%d", num3);
+
+		} else if(a == 'd') {
+			num3 = num1 % num2;
+			printf("%d", num3);
+
+		} else {
+			printf("Enter valid value");
+		}
+
+	} else if(word == 'w') {
+		char a;
+		printf("Enter any word ");
+		scanf(" %c", &a);
+		if(a =='a') {
+			printf("Monday");
+		}
+		else if(a == 'b') {
+			printf("Tuesday");
+		}
+		else if(a == 'c') {
+			printf("Wednesday");
+		}
+		else if(a == 'd') {
+			printf("Thrusday");
+		}
+		else if(a == 'e') {
+			printf("Friday");
+		}
+		else if(a == 'f') {
+			printf("Saturday");
+		}
+		else if(a == 'g') {
+			printf("Sunday");
+		}
+		else {
+			printf("Invalid input");
+		}
+
+	} else if(word == 'g') {
+		int m1, m2, m3, m4, m5;
+		float total, percentage;
+		char grade;
+
+		printf("Enter mark 1: ");
+		scanf("%d", &m1);
+		printf("Enter mark 2: ");
+		scanf("%d", &m2);
+		printf("Enter mark 3: ");
+		scanf("%d", &m3);
+		printf("Enter mark 4: ");
+		scanf("%d", &m4);
+		printf("Enter mark 5: ");
+		scanf("%d", &m5);
+
+		total = m1 + m2 + m3 + m4 + m5;
+		percentage = (total / 500.0) * 100;
+
+		if (percentage < 25) {
+			grade = 'F';
+		} else if (percentage < 45) {
+			grade = 'E';
+		} else if (percentage < 50) {
+			grade = 'D';
+		} else if (percentage < 60) {
+			grade = 'C';
+		} else if (percentage < 80) {
+			grade = 'B';
+		} else {
+			grade = 'A';
+		}
+
+		printf("\nTotal Marks %f: \n", total);
+		printf("Percentage %f: ", percentage);
+		printf("Grade: %c", grade);
+
+
+	} else if(word == 'v') {
+		int age;
+		printf("Enter your age please!!!");
+		scanf("%d", &age);
+
+		if(age >= 18) {
+			printf("You are a valid voter");
+		}
+		else {
+			printf("You are not a vaild voter");
+		}
+	}
+	return 0;
+}
+
+

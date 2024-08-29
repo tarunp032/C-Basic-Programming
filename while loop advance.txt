@@ -1,0 +1,179 @@
+write a c program sum all natural number through while loop : 
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    int a=1;
+    int sum =0;
+    while(a<=10){
+        sum=sum+a;
+        a++;
+    }
+    printf("%d",sum);
+    return 0;
+}
+
+
+----------------------------------------------------------
+write a c progam count digit of the number :
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    int a=163;
+    int count =0;
+    while(a>0){
+        a=a/10;
+        count ++;
+    }
+    printf("%d",count);
+    return 0;
+}
+
+
+--------------------------------------------------------------
+
+
+write a c program  sum of all the digits :
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    int a=219;
+    int rem, sum=0;
+    while(a>0){
+        rem=a%10;
+        sum=sum+rem;
+        a=a/10;
+    }
+    printf("%d",sum);
+    return 0;
+}
+
+
+--------------------------------------------------------------
+
+reverse number : 
+438 ---->834
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    int a=438;
+    int rem, sum=0;
+    while(a>0){
+        rem=a%10;
+        sum=sum*10+rem;
+        a=a/10;
+    }
+    printf("%d",sum);
+    return 0;
+}
+
+
+--------------------------------------------------------------
+
+palindrome number : 
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    int a=12321;
+    int temp=a;
+    int rem, sum=0;
+    while(a>0){
+        rem=a%10;
+        sum=sum*10+rem;
+        a=a/10;
+    }
+    printf("%d",sum);
+    if(sum==temp){
+        printf("this number is pallindrome");
+    }else{
+        printf("this number is not pallindrome");
+    }
+    return 0;
+}
+
+
+--------------------------------------------------------------
+
+Armstrong number : 
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    int a=153;
+    int temp=a;
+    int rem, sum=0;
+    while(a>0){
+        rem=a%10;
+        sum=sum+rem*rem*rem;
+        a=a/10;
+    }
+    printf("%d",sum);
+    if(sum==temp){
+        printf("this is armstrong number");
+    }else{
+        printf("this is not armstrong number");
+    }
+    return 0;
+}
+
+
+--------------------------------------------------------------
+
+neon number 
+9 
+81 (8+1 =9)
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    int num=9;
+    int p=num*num;
+    int rem, sum=0;
+    while(p>0){
+        rem=p%10;
+        sum=sum+rem;
+        p=p/10;
+    }
+    printf("%d",sum);
+    if(sum==num){
+       
+    }
+    return 0;
+}
+
+
+--------------------------------------------------------------
+product of all digit 
+
+1234
+
+1*2*3*4
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    int num=1234;
+    int product=1;
+    while(num>0){
+        int digit =num%10;
+        product*=digit;
+        num/=10;
+    }
+    printf("Product of digits in 1234: %d\n", product);
+    return 0;
+}
+
+__________________________________________________________________________
+

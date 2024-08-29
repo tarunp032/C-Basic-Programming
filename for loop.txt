@@ -1,0 +1,152 @@
+1------------->10 
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    for (int i=1;i<=10;i++){
+        printf("%d ",i);
+    }
+    return 0;
+}
+
+------------------------------
+67---->23 
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    for (int i=67;i>=23;i--){
+        printf("%d ",i);
+    }
+    return 0;
+}
+
+------------------------------
+1------------->10  even number 
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    for (int i=1;i<=10;i++){
+        if(i%2==0){
+        printf("%d ",i);
+        }
+    }
+    return 0;
+}
+------------------------------
+1------------->10  odd number 
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    for (int i=1;i<=10;i++){
+        if(i%2!=0){
+        printf("%d ",i);
+        }
+    }
+    return 0;
+}
+
+------------------------------
+67---->23 
+even number
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    for (int i=67;i>=23;i--){
+        if(i%2==0){
+        printf("%d ",i);
+        }
+    }
+    return 0;
+}
+
+------------------------------
+67---->23 
+odd number 
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    for (int i=67;i>=23;i--){
+        if(i%2!=0){
+        printf("%d ",i);
+        }
+    }
+    return 0;
+}
+
+------------------------------
+
+67---->2 :even number  
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    for (int i=67;i>=2;i--){
+        if(i%2==0){
+        printf("%d ",i);
+        }
+    }
+    return 0;
+}
+
+------------------------------
+
+670---->23  odd numbers 
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    for (int i=670;i>=23;i--){
+        if(i%2!=0){
+        printf("%d ",i);
+        }
+    }
+    return 0;
+}
+
+------------------------------
+
+user input :
+	print table 
+
+Answer :- 
+#include <stdio.h>
+
+int main() {
+    int n, i;
+
+    printf("Enter the number for which you want the multiplication table: ");
+    scanf("%d", &n);
+
+    printf("Multiplication table of %d:\n", n);
+    for (i = 1; i <= 10; ++i) {
+        printf("%d * %d = %d\n", n, i, n * i);
+    }
+
+    return 0;
+}
+
+------------------------------
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+1). Print:- 56*34+12/2-13
+
+#include<stdio.h>
+int main(){
+    
+    int a=56;
+    int b=34;
+    int c=12;
+    int d=2;
+    int e=13;
+    
+    int result=a*b+(c/d)-e;
+    printf("%d",result);
+    
+    return 0;
+}
+
+
+2). Print:- 1.2*6.7-4.5/2
+
+#include<stdio.h>
+int main(){
+    
+    float a=1.2;
+    float b=6.7;
+    float c=4.5;
+    int d=2;
+    
+    float result=a*b-c/d;
+    printf("%f",result);
+    
+    return 0;
+}
+
+
+3). Print:- 1.6*(12-2)/2+7.8-1.5
+
+#include<stdio.h>
+int main(){
+    
+    float a=1.6;
+    int b=12;
+    int c=2;
+    int d=2;
+    float e=7.8;
+    float f=1.5;
+    
+    float result=a*(b-c)/d+e-f;
+    printf("%f",result);
+    
+    return 0;
+}
+
+
+4). Print:- 9*1.67-(6.21-5.6)+7.8-34+157
+
+#include<stdio.h>
+int main(){
+    
+    int a=9;
+    float b=1.67;
+    float c=6.21;
+    float d=5.6;
+    float e=7.8;
+    int f=34;
+    int g=157;
+    
+    float result=a*b-(c-d)+e-f+g;
+    printf("%f",result);
+    
+    return 0;
+}
+
+

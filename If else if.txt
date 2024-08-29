@@ -1,0 +1,630 @@
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+	// --------------------------------------------//
+	//  Q-1
+	// char a;
+	// printf("Enter any word ");
+	// scanf("%c", &a);
+	// if(a =='a'){
+	//     printf("Monday");
+	// }
+	// else if(a == 'b'){
+	//     printf("Tuesday");
+	// }
+	// else if(a == 'c'){
+	//     printf("Wednesday");
+	// }
+	// else if(a == 'd'){
+	//     printf("Thrusday");
+	// }
+	// else if(a == 'e'){
+	//     printf("Friday");
+	// }
+	// else if(a == 'f'){
+	//     printf("Saturday");
+	// }
+	// else if(a == 'g'){
+	//     printf("Sunday");
+	// }
+	// else{
+	//     printf("Invalid input");
+	// }
+	// -----------------------------------------------------//
+	//  Q-2
+	// char a;
+	// printf("Enter any word ");
+	// scanf("%c", &a);
+	// if(a =='a'){
+	//     printf("Jan");
+	// }
+	// else if(a == 'b'){
+	//     printf("Feb");
+	// }
+	// else if(a == 'c'){
+	//     printf("Mar");
+	// }
+	// else if(a == 'd'){
+	//     printf("April");
+	// }
+	// else if(a == 'e'){
+	//     printf("May");
+	// }
+	// else if(a == 'f'){
+	//     printf("June");
+	// }
+	// else if(a == 'g'){
+	//     printf("July");
+	// }
+	// else if(a == 'g'){
+	//     printf("Aug");
+	// }
+	// else if(a == 'g'){
+	//     printf("Sept");
+	// }
+	// else if(a == 'g'){
+	//     printf("Oct");
+	// }
+	// else if(a == 'g'){
+	//     printf("Nov");
+	// }
+	// else if(a == 'g'){
+	//     printf("December");
+	// }
+	// else{
+	//     printf("Invalid input");
+	// }
+	// -----------------------------------------------------//
+
+	//  Q-3
+	// char a;
+	// printf("Enter any word ");
+	// scanf("%c", &a);
+	// if(a =='a'){
+	//     printf("Apple");
+	// }
+	// else if(a == 'b'){
+	//     printf("Ball")
+	// }
+	// else if(a == 'c'){
+	//     printf("Cat");
+
+	// }else if(a == 'd'){
+	//     printf("Dog");
+	// }else{
+	//     printf("Invalid input")
+	// }
+// ------------------------------------------------------//
+
+	//  Q-4
+	// char a;
+	// printf("Enter any word ");
+	// scanf("%c", &a);
+	// if(a =='a'){
+	//     printf("Vovel");
+	// }
+	// else if(a == 'e'){
+	//     printf("Vovel");
+	// }
+	// else if(a == 'i'){
+	//     printf("Vovel");
+
+	// }else if(a == 'o'){
+	//     printf("Vovel");
+	// }
+	// else if(a == 'u'){
+	//     printf("Vovel");
+	// }
+	// else{
+	//     printf("Invalid input");
+	// }
+
+// ------------------------------------------------------//
+// Q-5
+// char a;
+// printf("Enter any char and start the console ");
+// scanf("%c", &a);
+
+// if(a =='q' || a =='w' || a =='e'|| a =='r'|| a =='t' || a =='y'||a=='u'|| a =='i' || a =='o'|| a =='p'){
+//     printf("Upper line");
+// }else if(a =='a' || a =='s' || a =='d'|| a =='f'|| a =='g'|| a =='h' || a =='j'|| a =='k' || a == 'l'){
+//     printf("Mid line");
+// }else if(a =='z' || a =='x' || a =='c'|| a =='v'|| a =='b'|| a =='n' || a =='m'){
+//     printf("Lower line");
+// }else{
+//     printf("No line");
+// }
+
+
+
+
+
+
+// ------------------------------------------------------//
+// Q-6
+
+// int num ;
+
+// printf("Enter the number");
+// scanf("%d", &num);
+// if(num >= 1 && num <=10 ){
+//     printf("this number is present between 1 to 10");
+// }else if(num >=11 && num <=20){
+//     printf("this number is present between 11 to 20");
+// }else if(num >= 21 && num <= 30){
+//     printf("this number is present between 21 to 30");
+// }else{
+// printf("Enter the valid number");
+
+// }
+
+// ------------------------------------------------------//
+// Q-7
+// char a;
+
+// printf("Enter the char ");
+
+// scanf("%c", &a);
+// int num1, num2, num3;
+// printf("Enter the num1 & num2");
+// scanf("%d %d", &num1, &num2);
+// if(a == 'a'){
+//     num3 = num1 + num2;
+//     printf("%d", num3);
+// }
+// else if(a =='s'){
+//     num3 = num1 - num2;
+//         printf("%d", num3);
+// }else if(a =='m'){
+//         num3 = num1 * num2;
+//         printf("%d", num3);
+
+// }else if(a == 'd'){
+//         num3 = num1 / num2;
+//         printf("%d", num3);
+// }else{
+//     printf("It is a invalid number");
+// }
+
+// ------------------------------------------------------//
+// Q-8
+//  int m1, m2, m3, m4, m5;
+//     float total, percentage;
+//     char grade;
+
+//     printf("Enter mark 1: ");
+//     scanf("%d", &m1);
+//     printf("Enter mark 2: ");
+//     scanf("%d", &m2);
+//     printf("Enter mark 3: ");
+//     scanf("%d", &m3);
+//     printf("Enter mark 4: ");
+//     scanf("%d", &m4);
+//     printf("Enter mark 5: ");
+//     scanf("%d", &m5);
+
+//     total = m1 + m2 + m3 + m4 + m5;
+//     percentage = (total / 500.0) * 100;
+
+//     if (percentage < 25) {
+//         grade = 'F';
+//     } else if (percentage < 45) {
+//         grade = 'E';
+//     } else if (percentage < 50) {
+//         grade = 'D';
+//     } else if (percentage < 60) {
+//         grade = 'C';
+//     } else if (percentage < 80) {
+//         grade = 'B';
+//     } else {
+//         grade = 'A';
+//     }
+
+//     printf("\nTotal Marks: %f \n", total);
+//     printf("Percentage: %f \n", percentage);
+//     printf("Grade: %c\n", grade);
+
+
+// ------------------------------------------------------//
+// Q-9
+
+// Write a java program to read the roll no, name,fnname and marks of three subjects and calculate the total, percentage and division.
+// Test Data :
+// Input the Roll Number of the student :784
+// student name :
+// fname:
+// mname:
+// address:
+// contact:
+// Input the marks of Physics, Chemistry and Computer Application : 70 80 90
+// total:
+// precentage : %
+// division:
+
+// SOLUTION---------------------------------------------
+
+// 	int rollNo;
+// 	printf("Please enter your subh roll number ");
+// 	scanf("%d", &rollNo);
+
+// 	int physics, chemistry, computerApplication;
+// 	float total, percentage;
+// 	int division;
+
+// 	printf("Enter mark 1: ");
+// 	scanf("%d", &physics);
+// 	printf("Enter mark 2: ");
+// 	scanf("%d", &chemistry);
+// 	printf("Enter mark 3: ");
+// 	scanf("%d", &computerApplication);
+
+// 	total = physics + chemistry + computerApplication;
+// 	percentage = (total / 300.0) * 100;
+
+// 	if (percentage > 60) {
+// 		division = 1;
+// 	} else if (percentage >=50 && percentage <=59) {
+// 		division = 2;
+// 	} else if (percentage >= 30 && percentage <= 49) {
+// 		division =  3;
+// 	}else{
+// 	    printf("You failed your exam");
+// 	}
+// 	printf("Roll Number: %d\n", rollNo);
+// 	printf("Father's name : xyz\n");
+// 	printf("Mither's name : zyx\n");
+// 	printf("Total Marks: %f\n", total);
+// 	printf("Percentage: %f\n", percentage);
+// 	printf("Division: %d\n", division);
+
+
+// ------------------------------------------------------//
+// Q-10
+
+// salalry :
+// holidays (1) =full salary
+// 2-5 =5%
+// 5-14 =10%
+// 15 =50%
+// else =not salary
+
+// output :
+// name:
+// address:
+// bank details:
+// salary :
+// alot :
+//  holidays
+
+// SOLUTION---------------------------------------------
+
+// 	int salary;
+// 	printf("Enter your salary ");
+// 	scanf("%d", &salary);
+
+// 	int holiday;
+// 	printf("Enter your no of holidays ");
+// 	scanf("%d", &holiday);
+
+// 	int deductedSalary;
+// 	int per;
+// 	float subPer;
+
+
+// 	if(holiday >=1 && holiday <=5) {
+// 		per = 5;
+// 		subPer = (float)per / 100;
+// 		deductedSalary = salary - (salary * subPer);
+// 		printf("alotted salary%d\n", deductedSalary);
+// 	}
+// 	else if(holiday >=6 && holiday <=14) {
+// 		per = 10;
+// 		subPer = (float)per / 100;
+// 		deductedSalary = salary - (salary * subPer);
+// 		printf("alotted salary%d\n", deductedSalary);
+// 	}
+// 	else if(holiday >=15) {
+// 		per = 50;
+// 		subPer = (float)per / 100;
+// 		deductedSalary = salary - (salary * subPer);
+// 		printf("alotted salary%d\n", deductedSalary);
+// 	}
+// 	else {
+// 		printf("Invalid");
+// 	}
+
+// 	printf("Name : Xhy\n");
+// 	printf("address : Xhy colony, North korea\n");
+// 	printf("Bank details : 3695858547996\n");
+// 	printf("Salary :%d\n", salary);
+// 	printf("alotted salary :%d\n", deductedSalary);
+// 	printf("holidays :%d\n", holiday);
+
+
+
+// ------------------------------------------------------//
+// Q-11
+
+// electric city bill :
+// 4 unit
+// 40
+// 1- 10 = 10%
+// 11-20 =15%
+// 21-40 =30%
+// 50 =50%
+
+// output :
+// name:
+// unit :3
+// amout 30
+// discout : 10%
+// total pay amount :
+
+// SOLUTION---------------------------------------------
+
+
+// 	int unit=4;
+// 	int pay=unit*10;
+// 	int deductedBill;
+// 	int per;
+// 	float subPer;
+// 	if(unit>=1 && unit<=10) {
+// 		per = 10;
+// 		subPer = (float)per / 100;
+// 		deductedBill = pay - (pay * subPer);
+// 		printf("%d\n", deductedBill);
+// 	} else if(unit>=11 && unit<=20) {
+// 		per = 15;
+// 		subPer = (float)per / 100;
+// 		deductedBill = pay - (pay * subPer);
+// 		printf("%d\n", deductedBill);
+// 	} else if(unit>=21 && unit<=40) {
+// 		per = 30;
+// 		subPer = (float)per / 100;
+// 		deductedBill = pay - (pay * subPer);
+// 		printf("%d\n", deductedBill);
+// 	} else if(unit>= 50) {
+// 		per = 50;
+// 		subPer = (float)per / 100;
+// 		deductedBill = pay - (pay * subPer);
+// 		printf("%d\n", deductedBill);
+// 	} else {
+// 		printf("Invalid number");
+// 	}
+
+// 	printf("Name : Xhy\n");
+// 	printf("Unit :%d\n", unit);
+
+
+
+// ------------------------------------------------------//
+// Q-12
+// char a;
+// printf("Enter the char ");
+// scanf("%c", &a);
+// int num1, num2, num3;
+// printf("Write num1,num2 ");
+// scanf("%d %d", &num1, &num2);
+
+// if(a == 'a'){
+//     num3 = num1 + num2;
+//     printf("%d", num3);
+// }else if(a == 's'){
+//         num3 = num1 - num2;
+//     printf("%d", num3);
+// }else if (a == 'b'){
+//         num3 = num1 * num2;
+//     printf("%d", num3);
+// }else if(a == 'c'){
+//         num3 = num1 / num2;
+//     printf("%d", num3);
+// }else if(a == 'd'){
+//         num3 = num1 % num2;
+//     printf("%d", num3);
+// }else{
+//     printf("Enter valid value");
+// }
+// ------------------------------------------------------//
+// Q-13,14
+
+// int length,height, perimeter, area;
+
+// printf("Enter length then height to calculate peremeter of rectangle ");
+// scanf("%d %d", &length, &height);
+// perimeter = 2 * (length + height);
+// area = length * height;
+
+// printf("Perimeter%d\n", perimeter);
+// printf("Area%d\n", area);
+
+
+// ------------------------------------------------------//
+// Q-15
+
+// float pie = 3.14159;
+// int radius,diameter,circumference,area;
+// printf("Provide the radius of the circle ");
+// scanf("%d", &radius);
+
+// diameter = 2 * radius;
+// circumference = 2 * pie * radius;
+// area = pie * (radius * radius);
+
+// printf("Diameter : %d\n", diameter);
+// printf("Circumference : %d\n", circumference);
+// printf("Area : %d\n", area);
+
+// ------------------------------------------------------//
+// Q-16
+
+// int centimeter;
+// printf("Enter centimeter and get it converted into meter and kilometer");
+// scanf("%d", &centimeter);
+// int meter,kilometer;
+// meter = centimeter / 100;
+// kilometer = centimeter / 100000;
+// printf("Meter : %d\n", meter);
+// printf("Kilometer : %d\n", kilometer);
+
+
+
+// ------------------------------------------------------//
+// Q-17
+
+// int num1,num2;
+// printf("Enter num1 and num2 ");
+// scanf("%d %d", &num1, &num2);
+
+// if(num1 > num2){
+//     printf("Num1 is greater then num2");
+
+// }else{
+//     printf("Num2 is greater than num3");
+// }
+
+// ------------------------------------------------------//
+// Q-18
+
+// int num1,num2,num3;
+// printf("Enter num1 and num2 & num3 ");
+// scanf("%d %d %d", &num1, &num2, &num3);
+
+// if(num1 > num2 && num1 > num3){
+//     printf("Num1 is greater then num2 & num3");
+
+// }else if(num2 > num1 && num2 >num3){
+//     printf("Num2 is greater than num3 & num1");
+// }else if(
+//     printf("Num3 is greater then num1 & num2")
+//     )
+
+
+// ------------------------------------------------------//
+// Q-19
+
+
+// int num;
+// printf("Enter any number to check for negative , positive or zero value ");
+// scanf("%d", &num);
+
+// if(num < 0){
+//     printf("Num is in negative value");
+
+// }else if(num > 0){
+//     printf("Num is in positive value");
+// }else {
+//     printf("It's a ZERO!!!");
+// }
+
+// ------------------------------------------------------//
+// Q-20
+
+
+// 	int physics, chemistry, biology, maths, computerApplication;
+// 	float total, percentage;
+// 	char grade;
+
+// 	printf("Enter physics marks: ");
+// 	scanf("%d", &physics);
+// 	printf("Enter chemistry marks : ");
+// 	scanf("%d", &chemistry);
+// 	printf("Enter biology marks : ");
+// 	scanf("%d", &biology);
+// 	printf("Enter maths marks : ");
+// 	scanf("%d", &maths);
+// 	printf("Enter computerApplication marks : ");
+// 	scanf("%d", &computerApplication);
+
+// 	total = physics + chemistry + biology + maths + computerApplication;
+// 	percentage = (total / 500.0) * 100;
+
+// 	if (percentage < 40) {
+// 		grade = 'F';
+// 	} else if (percentage >= 40) {
+// 		grade = 'E';
+// 	} else if (percentage >= 60) {
+// 		grade = 'D';
+// 	} else if (percentage >= 70) {
+// 		grade = 'C';
+// 	} else if (percentage >= 80) {
+// 		grade = 'B';
+// 	} else if (percentage >=90 && percentage <=100){
+// 		grade = 'A';
+// 	} else{
+// 	    printf("Invalid value");
+// 	}
+
+// 	printf("\nTotal Marks: %f \n", total);
+// 	printf("Percentage: %f \n", percentage);
+// 	printf("Grade: %c\n", grade);
+
+// ------------------------------------------------------//
+// Q-21
+// Write a C program to input basic salary of an employee and calculate its Gross
+// salary according to following:
+// Basic Salary <= 10000 : HRA = 20%, DA = 80%
+// Basic Salary <= 20000 : HRA = 25%, DA = 90%
+// Basic Salary > 20000 : HRA = 30%, DA = 95%
+
+// SOLUTION---------------------------------------------
+
+//   float basicSalary, hra, da, grossSalary;
+
+//     printf("Enter the basic salary of the employee: ");
+//     scanf("%f", &basicSalary);
+
+
+//     if (basicSalary <= 10000) {
+//         hra = basicSalary * 0.20;
+//         da = basicSalary * 0.80;
+//     } else if (basicSalary <= 20000) {
+//         hra = basicSalary * 0.25;
+//         da = basicSalary * 0.90;
+//     } else {
+//         hra = basicSalary * 0.30;
+//         da = basicSalary * 0.95;
+//     }
+
+ 
+//     grossSalary = basicSalary + hra + da;
+
+//     printf("Basic Salary: %f\n", basicSalary);
+//     printf("HRA: %f\n", hra);
+//     printf("DA: %f\n", da);
+//     printf("Gross Salary: %f\n", grossSalary);
+
+// ------------------------------------------------------//
+// Q-22
+    // int units;
+    // float bill, surcharge, totalBill;
+
+
+    // printf("Enter the number of electricity units consumed: ");
+    // scanf("%d", &units);
+
+
+    // if (units <= 50) {
+    //     bill = units * 0.50;
+    // } else if (units <= 150) {
+    //     bill = 50 * 0.50 + (units - 50) * 0.75;
+    // } else if (units <= 250) {
+    //     bill = 50 * 0.50 + 100 * 0.75 + (units - 150) * 1.20;
+    // } else {
+    //     bill = 50 * 0.50 + 100 * 0.75 + 100 * 1.20 + (units - 250) * 1.50;
+    // }
+
+
+    // surcharge = bill * 0.20;
+
+
+    // totalBill = bill + surcharge;
+
+    // printf("Total Electricity Bill: Rs. %f\n", totalBill);
+
+	return 0;
+}
+If else If(Fri-Assignment).txt
+Displaying If else If(Fri-Assignment).txt.
+

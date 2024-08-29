@@ -1,0 +1,45 @@
+Five City Names:-
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Jaipur\n");
+    printf("Delhi\n");
+    printf("Chennai\n");
+    printf("Mumbai\n");
+    printf("Indore\n");
+
+    return 0;
+}
+
+
+Five Friends Name:-
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Aman\n");
+    printf("Rahul\n");
+    printf("Tarun\n");
+    printf("Yuvraj\n");
+    printf("Ronak\n");
+
+    return 0;
+}
+
+
+Five Fruits Name:-
+
+#include <stdio.h>
+int main(){
+    printf("Orange\n");
+    printf("Grapes\n");
+    printf("watermelon\n");
+    printf("Apple\n");
+    printf("Banana\n");
+
+    return 0;
+}
+

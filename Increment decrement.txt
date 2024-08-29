@@ -1,0 +1,292 @@
+Question 1
+Incrementing a variable using the pre-increment operator
+int a = 5;
+int b = ++a;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+
+Answer :-
+6
+6
+
+-------------------------------------------------------------------
+Question 2
+Incrementing a variable using the post-increment operator
+int a = 5;
+int b = a++;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+
+Answer :- 
+6
+5
+
+-------------------------------------------------------------------
+
+
+Question 3
+Decrementing a variable using the pre-decrement operator
+int a = 5;
+int b = --a;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+
+Answer :- 
+4
+4
+
+-------------------------------------------------------------------
+
+Question 4
+Decrementing a variable using the post-decrement operator
+int a = 5;
+int b = a--;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+
+Answer :- 
+4
+5
+
+-------------------------------------------------------------------
+
+Question 5
+Combining pre-increment and post-increment operators
+int a = 5;
+int b = ++a + a++;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+
+Answer :- 
+7
+12
+
+-------------------------------------------------------------------
+
+Question 6
+Combining pre-decrement and post-decrement operators
+int a = 5;
+int b = --a + a--;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+
+Answer :- 
+3
+8
+
+-------------------------------------------------------------------
+
+Question 7
+Complex increment operations
+int a = 5;
+a = a++ + ++a;
+printf(a); // What is the value of 'a'?
+
+Answer :- 
+12
+-------------------------------------------------------------------
+
+Question 8
+Combining increments and arithmetic operations
+int a = 5;
+int b = 3;
+int c = a++ + ++b + b++ + ++a;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+printf(c); // What is the value of 'c'?
+
+Answer :- 
+7 
+5 
+20
+
+-------------------------------------------------------------------
+
+Question 9
+Nested increment operations
+int a = 1;
+int b = 2;
+int c = a++ + (++a * ++b);
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+printf(c); // What is the value of 'c'?
+
+Answer :- 
+3 
+3
+10
+
+-------------------------------------------------------------------
+
+Question 10
+Multiple pre-increments
+int a = 1;
+int b = ++a + ++a + ++a;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+
+
+Answer :- 
+4
+9
+
+-------------------------------------------------------------------
+
+Question 11
+Multiple post-increments
+int a = 1;
+int b = a++ + a++ + a++;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+
+Answer :- 
+4
+6
+
+-------------------------------------------------------------------
+
+Question 12
+Combining pre-decrement and pre-increment
+int a = 5;
+int b = 3;
+int c = --a + ++b + a + b;
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+printf(c); // What is the value of 'c'?
+
+Answer :- 
+4
+4
+16
+
+-------------------------------------------------------------------
+
+Question 13
+Complex decrement operations
+int a = 5;
+a = a-- - --a;
+printf(a); // What is the value of 'a'?
+
+Answer :- 
+2
+
+-------------------------------------------------------------------
+
+Question 14
+Increment with logical operators
+int a = 1;
+int b = 1;
+if (++a == 2 && b++ == 1) {
+    a++;
+}
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+
+Answer :- 
+3
+2
+
+-------------------------------------------------------------------
+
+Question 15
+Nested increments and decrements
+int a = 5;
+int b = 3;
+int c = 0;
+
+if (++a > b++) {
+    c = a-- + b++;
+} else {
+    c = ++a - --b;
+}
+
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+printf(c); // What is the value of 'c'?
+
+Answer :- 
+5
+5
+10
+
+-------------------------------------------------------------------
+
+Question 16
+Increment and decrement in a nested if-else
+int a = 5;
+int b = 3;
+int c = 0;
+
+if (++a > 6) {
+    if (--b > 2) {
+        c = a++ + --b;
+    } else {
+        c = --a - ++b;
+    }
+} else {
+    c = a-- + ++b;
+}
+
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+printf(c); // What is the value of 'c'?
+
+Answer :- 
+5
+4
+10
+
+-------------------------------------------------------------------
+
+Question 17 
+Multiple pre-increments in nested conditionals
+int a = 5;
+int b = 3;
+int c = 0;
+
+if (++a > 6) {
+    if (--b > 2) {
+        c = a-- + --b;
+    } else {
+        c = --a - ++b;
+    }
+} else {
+    c = a++ + ++b;
+}
+
+printf(a); // What is the value of 'a'?
+printf(b); // What is the value of 'b'?
+printf(c); // What is the value of 'c'?
+
+Answer :- 
+7 
+4
+10
+
+-------------------------------------------------------------------
+
+
+Question 18 
+Pre-increment and post-decrement in conditional statements
+int a = 5;
+if (++a > 5 && a-- < 7) {
+    a++;
+}
+printf(a); // What is the value of 'a'?
+
+Answer :- 
+6
+__________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+

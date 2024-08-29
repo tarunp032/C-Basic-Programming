@@ -1,0 +1,87 @@
+1). Print -56 :- 
+
+#include<stdio.h>
+int main(){
+    
+    int a=-56;
+    
+    printf("%d",a);
+    return 0;
+}
+
+
+2). Print 2.532 :- 
+
+#include<stdio.h>
+int main(){
+    
+    float a=2.532;
+    
+    printf("%f",a);
+    return 0;
+}
+
+3). Print 34, -2.34, t
+
+#include<stdio.h>
+int main(){
+    
+    float a=-2.34;
+    int b=34;
+    char c='t';
+    
+    printf("%f\n",a);
+    printf("%d\n",b);
+    printf("%c\n",c);
+    return 0;
+}
+
+
+4). Print 56*2 :- 
+
+#include<stdio.h>
+int main(){
+    
+    int num1, num2, multiply;
+    
+    printf("Enter two integers:");
+    scanf("%d %d",&num1, &num2);
+    
+    multiply=num1*num2;
+    
+    printf("%d * %d = %d", num1,num2,multiply);
+    
+    return 0;
+}
+
+
+5). Print 45/2 :- 
+
+#include<stdio.h>
+int main(){
+    
+    int num1, num2, divide;
+    
+    printf("Enter two integers:");
+    scanf("%d %d",&num1, &num2);
+    
+    divide=num1/num2;
+    
+    printf("%d / %d = %d", num1,num2,divide);
+    
+    return 0;
+}
+
+
+6). Print 34+89 :- 
+
+#include<stdio.h>
+int main(){
+    
+    int a=34;
+    int b=89;
+    int c=a+b;
+    
+    printf("%d",c=a+b);
+}
+
