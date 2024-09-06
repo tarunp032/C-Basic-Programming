@@ -1,0 +1,788 @@
+return and no argument :
+add()
+sub()
+multi()
+div() 
+mod()
+
+Answer :- 
+#include<stdio.h>
+int add();
+int sub();
+int multi();
+int division();
+int mod();
+int main(){
+    
+    printf("addtion is :%d\n",add());
+    printf("subtraction is :%d\n",sub());
+    printf("multipication is :%d\n",multi());
+    printf("Division is :%d\n",division());
+    printf("Modular is :%d\n",mod());
+    return 0;
+}
+int add(){
+    int a=1, b=1;
+    int c=a+b;
+    return c;
+}
+int sub(){
+    int a=5, b=2;
+    int c=a-b;
+    return c;
+}
+int multi(){
+    int a=5, b=3;
+    int c=a*b;
+    return c;
+}
+int division(){
+    int a=15, b=3;
+    int c=a/b;
+    return c;
+}
+int mod(){
+    int a=12, b=2;
+    int c=a%b;
+    return c;
+}
+
+
+---------------------------------------------------------------------------------
+even()
+marksheet()
+month()
+week()
+vowel()
+Voter id()
+electricity()
+
+Answer :- 
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    printf("Try programiz.pro");
+#include <stdio.h>
+
+// Function to check if a number is even or odd
+int even() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    return num % 2 == 0;
+}
+
+// Function to calculate total marks and print a marksheet
+int marksheet() {
+    int marks[5], total = 0;
+    printf("Enter marks for 5 subjects:\n");
+    for (int i = 0; i < 5; i++) {
+        scanf("%d", &marks[i]);
+        total += marks[i];
+    }
+    return total;
+}
+
+// Function to get the month name based on a number
+int month() {
+    int monthNumber;
+    printf("Enter month number (1-12): ");
+    scanf("%d", &monthNumber);
+    return monthNumber;
+}
+
+// Function to get the day of the week based on a number
+int week() {
+    int dayNumber;
+    printf("Enter day number (1-7): ");
+    scanf("%d", &dayNumber);
+    return dayNumber;
+}
+
+// Function to check if a character is a vowel
+char vowel() {
+    char ch;
+    printf("Enter a character: ");
+    scanf(" %c", &ch);  // Space before %c to consume any leftover newline
+    return ch;
+}
+
+// Function to determine if a person is eligible to vote based on age
+int voterId() {
+    int age;
+    printf("Enter your age: ");
+    scanf("%d", &age);
+    return age;
+}
+
+// Function to check electricity usage (high or low)
+int electricity() {
+    int units;
+    printf("Enter electricity units used: ");
+    scanf("%d", &units);
+    return units;
+}
+
+int main() {
+    // Check if number is even or odd
+    int num = even();
+    printf("%d is %s.\n", num, (num % 2 == 0) ? "even" : "odd");
+
+    // Print marksheet
+    int totalMarks = marksheet();
+    float percentage = totalMarks / 5.0;
+    printf("\nTotal Marks: %d / 500\n", totalMarks);
+    printf("Percentage: %.2f%%\n", percentage);
+    if (percentage >= 90) printf("Grade: A+\n");
+    else if (percentage >= 80) printf("Grade: A\n");
+    else if (percentage >= 70) printf("Grade: B+\n");
+    else if (percentage >= 60) printf("Grade: B\n");
+    else if (percentage >= 50) printf("Grade: C\n");
+    else printf("Grade: F (Fail)\n");
+
+    // Print month name
+    int monthNumber = month();
+    switch (monthNumber) {
+        case 1:  printf("\nMonth: January\n"); break;
+        case 2:  printf("Month: February\n"); break;
+        case 3:  printf("Month: March\n"); break;
+        case 4:  printf("Month: April\n"); break;
+        case 5:  printf("Month: May\n"); break;
+        case 6:  printf("Month: June\n"); break;
+        case 7:  printf("Month: July\n"); break;
+        case 8:  printf("Month: August\n"); break;
+        case 9:  printf("Month: September\n"); break;
+        case 10: printf("Month: October\n"); break;
+        case 11: printf("Month: November\n"); break;
+        case 12: printf("Month: December\n"); break;
+        default: printf("Invalid month number!\n");
+    }
+
+    // Print day of the week
+    int dayNumber = week();
+    switch (dayNumber) {
+        case 1:  printf("\nDay: Sunday\n"); break;
+        case 2:  printf("Day: Monday\n"); break;
+        case 3:  printf("Day: Tuesday\n"); break;
+        case 4:  printf("Day: Wednesday\n"); break;
+        case 5:  printf("Day: Thursday\n"); break;
+        case 6:  printf("Day: Friday\n"); break;
+        case 7:  printf("Day: Saturday\n"); break;
+        default: printf("Invalid day number!\n");
+    }
+
+    // Check if a character is a vowel
+    char ch = vowel();
+    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || 
+        ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
+        printf("\n%c is a vowel.\n", ch);
+    } else {
+        printf("\n%c is not a vowel.\n", ch);
+    }
+
+    // Check voter eligibility
+    int age = voterId();
+    if (age >= 18) {
+        printf("\nYou are eligible to vote.\n");
+    } else {
+        printf("\nYou are not eligible to vote.\n");
+    }
+
+    // Check electricity usage
+    int units = electricity();
+    if (units > 100) {
+        printf("\nHigh electricity usage.\n");
+    } else {
+        printf("\nLow electricity usage.\n");
+    }
+
+    return 0;
+}
+
+
+
+---------------------------------------------------------------------------------
+a:
+	amrstrong() :number check 
+
+f :
+	factorial() 
+
+b :
+	Fibonacci()
+
+p :
+	palindrome()
+
+n:
+	neon() 
+
+r :
+	reversenumber()
+
+c:
+	count()
+
+s:
+	sumofdigit()
+Answer :- 
+
+#include <stdio.h>
+#include <math.h>
+
+// Function to check if a number is an Armstrong number
+int armstrong() {
+    int num, sum = 0, original, remainder, n = 0;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    original = num;
+    
+    // Calculate number of digits
+    while (original != 0) {
+        original /= 10;
+        ++n;
+    }
+    
+    original = num;
+    
+    // Calculate the sum of powers of digits
+    while (original != 0) {
+        remainder = original % 10;
+        sum += pow(remainder, n);
+        original /= 10;
+    }
+    
+    return (num == sum);
+}
+
+// Function to calculate factorial of a number
+int factorial() {
+    int num, fact = 1;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    for (int i = 1; i <= num; i++) {
+        fact *= i;
+    }
+    
+    return fact;
+}
+
+// Function to generate the nth Fibonacci number
+int fibonacci() {
+    int n, first = 0, second = 1, next;
+    printf("Enter the position for Fibonacci number: ");
+    scanf("%d", &n);
+    
+    if (n == 0) return 0;
+    if (n == 1) return 1;
+    
+    for (int i = 2; i <= n; i++) {
+        next = first + second;
+        first = second;
+        second = next;
+    }
+    
+    return second;
+}
+
+// Function to check if a number is a palindrome
+int palindrome() {
+    int num, reversed = 0, original, remainder;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    original = num;
+    
+    while (num != 0) {
+        remainder = num % 10;
+        reversed = reversed * 10 + remainder;
+        num /= 10;
+    }
+    
+    return (original == reversed);
+}
+
+// Function to check if a number is a neon number
+int neon() {
+    int num, sumOfDigits = 0, squared;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    squared = num * num;
+    
+    while (squared != 0) {
+        sumOfDigits += squared % 10;
+        squared /= 10;
+    }
+    
+    return (num == sumOfDigits);
+}
+
+// Function to reverse a number
+int reverseNumber() {
+    int num, reversed = 0, remainder;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    while (num != 0) {
+        remainder = num % 10;
+        reversed = reversed * 10 + remainder;
+        num /= 10;
+    }
+    
+    return reversed;
+}
+
+// Function to count the number of digits in a number
+int count() {
+    int num, digits = 0;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    if (num == 0) return 1;  // Special case for 0
+    
+    while (num != 0) {
+        num /= 10;
+        digits++;
+    }
+    
+    return digits;
+}
+
+// Function to find the sum of digits of a number
+int sumOfDigits() {
+    int num, sum = 0, remainder;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    while (num != 0) {
+        remainder = num % 10;
+        sum += remainder;
+        num /= 10;
+    }
+    
+    return sum;
+}
+
+int main() {
+    // Check Armstrong number
+    printf("Armstrong number check: %s\n", armstrong() ? "Yes" : "No");
+
+    // Calculate factorial
+    printf("Factorial: %d\n", factorial());
+
+    // Get Fibonacci number
+    printf("Fibonacci number: %d\n", fibonacci());
+
+    // Check Palindrome
+    printf("Palindrome check: %s\n", palindrome() ? "Yes" : "No");
+
+    // Check Neon number
+    printf("Neon number check: %s\n", neon() ? "Yes" : "No");
+
+    // Reverse number
+    printf("Reversed number: %d\n", reverseNumber());
+
+    // Count digits
+    printf("Number of digits: %d\n", count());
+
+    // Sum of digits
+    printf("Sum of digits: %d\n", sumOfDigits());
+
+    return 0;
+}
+
+
+----------------------------------------------------
+return and argument 
+
+add()
+sub()
+multi()
+div() 
+mod()
+Answer :- 
+
+#include <stdio.h>
+
+// Function to add two numbers
+int add(int a, int b) {
+    return a + b;
+}
+
+// Function to subtract two numbers
+int sub(int a, int b) {
+    return a - b;
+}
+
+// Function to multiply two numbers
+int multi(int a, int b) {
+    return a * b;
+}
+
+// Function to divide two numbers
+float div(int a, int b) {
+    if (b != 0) {
+        return (float)a / b;
+    } else {
+        printf("Error: Division by zero.\n");
+        return 0; // Return 0 to indicate error
+    }
+}
+
+// Function to find the modulus of two numbers
+int mod(int a, int b) {
+    if (b != 0) {
+        return a % b;
+    } else {
+        printf("Error: Division by zero.\n");
+        return 0; // Return 0 to indicate error
+    }
+}
+
+int main() {
+    int x, y;
+
+    // Input two numbers
+    printf("Enter two numbers: ");
+    scanf("%d %d", &x, &y);
+
+    // Perform and display operations
+    printf("Addition: %d\n", add(x, y));
+    printf("Subtraction: %d\n", sub(x, y));
+    printf("Multiplication: %d\n", multi(x, y));
+    printf("Division: %.2f\n", div(x, y));
+    printf("Modulus: %d\n", mod(x, y));
+
+    return 0;
+}
+
+
+
+---------------------------------------------------------------------------------
+even()
+marksheet()
+month()
+week()
+vowel()
+voterid()
+electricity()
+
+Answer :- 
+
+#include <stdio.h>
+#include <stdbool.h>
+
+// Function to check if a number is even
+bool even(int num) {
+    return num % 2 == 0;
+}
+
+// Function to calculate total marks and return total
+int marksheet(int marks[], int size) {
+    int total = 0;
+    for (int i = 0; i < size; i++) {
+        total += marks[i];
+    }
+    return total;
+}
+
+// Function to get the month name based on a number
+const char* month(int monthNumber) {
+    switch (monthNumber) {
+        case 1:  return "January";
+        case 2:  return "February";
+        case 3:  return "March";
+        case 4:  return "April";
+        case 5:  return "May";
+        case 6:  return "June";
+        case 7:  return "July";
+        case 8:  return "August";
+        case 9:  return "September";
+        case 10: return "October";
+        case 11: return "November";
+        case 12: return "December";
+        default: return "Invalid month number";
+    }
+}
+
+// Function to get the day of the week based on a number
+const char* week(int dayNumber) {
+    switch (dayNumber) {
+        case 1:  return "Sunday";
+        case 2:  return "Monday";
+        case 3:  return "Tuesday";
+        case 4:  return "Wednesday";
+        case 5:  return "Thursday";
+        case 6:  return "Friday";
+        case 7:  return "Saturday";
+        default: return "Invalid day number";
+    }
+}
+
+// Function to check if a character is a vowel
+bool vowel(char ch) {
+    ch = tolower(ch); // Convert to lowercase to simplify comparison
+    return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
+}
+
+// Function to check voter eligibility based on age
+bool voterid(int age) {
+    return age >= 18;
+}
+
+// Function to check electricity usage (high or low)
+bool electricity(int units) {
+    return units > 100;
+}
+
+int main() {
+    // Check if a number is even
+    int num;
+    printf("Enter a number to check if it's even: ");
+    scanf("%d", &num);
+    printf("%d is %s.\n", num, even(num) ? "even" : "odd");
+
+    // Calculate and print marksheet
+    int marks[5];
+    printf("Enter marks for 5 subjects:\n");
+    for (int i = 0; i < 5; i++) {
+        scanf("%d", &marks[i]);
+    }
+    int totalMarks = marksheet(marks, 5);
+    float percentage = totalMarks / 5.0;
+    printf("Total Marks: %d / 500\n", totalMarks);
+    printf("Percentage: %.2f%%\n", percentage);
+    if (percentage >= 90) printf("Grade: A+\n");
+    else if (percentage >= 80) printf("Grade: A\n");
+    else if (percentage >= 70) printf("Grade: B+\n");
+    else if (percentage >= 60) printf("Grade: B\n");
+    else if (percentage >= 50) printf("Grade: C\n");
+    else printf("Grade: F (Fail)\n");
+
+    // Get the month name
+    int monthNumber;
+    printf("Enter month number (1-12): ");
+    scanf("%d", &monthNumber);
+    printf("Month: %s\n", month(monthNumber));
+
+    // Get the day of the week
+    int dayNumber;
+    printf("Enter day number (1-7): ");
+    scanf("%d", &dayNumber);
+    printf("Day: %s\n", week(dayNumber));
+
+    // Check if a character is a vowel
+    char ch;
+    printf("Enter a character: ");
+    scanf(" %c", &ch);
+    printf("%c is %s.\n", ch, vowel(ch) ? "a vowel" : "not a vowel");
+
+    // Check voter eligibility
+    int age;
+    printf("Enter your age: ");
+    scanf("%d", &age);
+    printf("You are %s to vote.\n", voterid(age) ? "eligible" : "not eligible");
+
+    // Check electricity usage
+    int units;
+    printf("Enter electricity units used: ");
+    scanf("%d", &units);
+    printf("Electricity usage is %s.\n", electricity(units) ? "high" : "low");
+
+    return 0;
+}
+
+
+---------------------------------------------------------------------------------
+a:
+	amrstrong() :number check 
+
+f :
+	factorial() 
+
+b :
+	Fibonacci()
+
+p :
+	palindrome()
+
+n:
+	neon() 
+
+r :
+	reversenumber()
+
+c:
+	count()
+
+s:
+	sumofdigit()
+
+Answer :- 
+
+#include <stdio.h>
+#include <math.h>
+
+// Function to check if a number is an Armstrong number
+int armstrong(int num) {
+    int sum = 0, original = num, remainder, n = 0;
+    
+    // Calculate number of digits
+    while (original != 0) {
+        original /= 10;
+        ++n;
+    }
+    
+    original = num;
+    
+    // Calculate the sum of powers of digits
+    while (original != 0) {
+        remainder = original % 10;
+        sum += pow(remainder, n);
+        original /= 10;
+    }
+    
+    return (num == sum);
+}
+
+// Function to calculate factorial of a number
+int factorial(int num) {
+    int fact = 1;
+    for (int i = 1; i <= num; i++) {
+        fact *= i;
+    }
+    return fact;
+}
+
+// Function to get the nth Fibonacci number
+int fibonacci(int n) {
+    if (n == 0) return 0;
+    if (n == 1) return 1;
+    
+    int first = 0, second = 1, next;
+    for (int i = 2; i <= n; i++) {
+        next = first + second;
+        first = second;
+        second = next;
+    }
+    
+    return second;
+}
+
+// Function to check if a number is a palindrome
+int palindrome(int num) {
+    int reversed = 0, original = num, remainder;
+    
+    while (num != 0) {
+        remainder = num % 10;
+        reversed = reversed * 10 + remainder;
+        num /= 10;
+    }
+    
+    return (original == reversed);
+}
+
+// Function to check if a number is a neon number
+int neon(int num) {
+    int sumOfDigits = 0, squared = num * num;
+    
+    while (squared != 0) {
+        sumOfDigits += squared % 10;
+        squared /= 10;
+    }
+    
+    return (num == sumOfDigits);
+}
+
+// Function to reverse a number
+int reverseNumber(int num) {
+    int reversed = 0, remainder;
+    
+    while (num != 0) {
+        remainder = num % 10;
+        reversed = reversed * 10 + remainder;
+        num /= 10;
+    }
+    
+    return reversed;
+}
+
+// Function to count the number of digits in a number
+int count(int num) {
+    int digits = 0;
+    
+    if (num == 0) return 1;  // Special case for 0
+    
+    while (num != 0) {
+        num /= 10;
+        digits++;
+    }
+    
+    return digits;
+}
+
+// Function to find the sum of digits of a number
+int sumOfDigits(int num) {
+    int sum = 0, remainder;
+    
+    while (num != 0) {
+        remainder = num % 10;
+        sum += remainder;
+        num /= 10;
+    }
+    
+    return sum;
+}
+
+int main() {
+    int num, result, n;
+    
+    // Check Armstrong number
+    printf("Enter a number to check if it's an Armstrong number: ");
+    scanf("%d", &num);
+    printf("%d is %s.\n", num, armstrong(num) ? "an Armstrong number" : "not an Armstrong number");
+
+    // Calculate factorial
+    printf("Enter a number to find its factorial: ");
+    scanf("%d", &num);
+    printf("Factorial: %d\n", factorial(num));
+
+    // Get nth Fibonacci number
+    printf("Enter the position for Fibonacci number: ");
+    scanf("%d", &n);
+    printf("Fibonacci number at position %d: %d\n", n, fibonacci(n));
+
+    // Check palindrome
+    printf("Enter a number to check if it's a palindrome: ");
+    scanf("%d", &num);
+    printf("%d is %s.\n", num, palindrome(num) ? "a palindrome" : "not a palindrome");
+
+    // Check neon number
+    printf("Enter a number to check if it's a neon number: ");
+    scanf("%d", &num);
+    printf("%d is %s.\n", num, neon(num) ? "a neon number" : "not a neon number");
+
+    // Reverse number
+    printf("Enter a number to reverse: ");
+    scanf("%d", &num);
+    printf("Reversed number: %d\n", reverseNumber(num));
+
+    // Count digits
+    printf("Enter a number to count its digits: ");
+    scanf("%d", &num);
+    printf("Number of digits: %d\n", count(num));
+
+    // Sum of digits
+    printf("Enter a number to find the sum of its digits: ");
+    scanf("%d", &num);
+    printf("Sum of digits: %d\n", sumOfDigits(num));
+
+    return 0;
+}
+
+
+-------------------------------------------------
+
